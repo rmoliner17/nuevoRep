@@ -1,5 +1,5 @@
 ////EJ3 BIEN
-/*
+
 function impares(numero: number){
     for(let i=0; i<=numero; i++){
         if(i % 2 != 0){
@@ -38,4 +38,3 @@ function sumaCaracteres(array:string[]):number{
 
 let nombres = ["pepse","lissa"]
 //console.log(sumaCaracteres(nombres))
-*/
