@@ -36,66 +36,66 @@ console.log(zodiac(21, "diciembre", 2000))
 
 ////EJ2 BIEN
 
-function continente(pais):string
+function continente(pais)
 {
     if(pais == "españa"){
-        return "europa"
+        console.log("europa")
         }else if(
             pais == "francia"){
-                return "europa"
+                console.log("europa")
         }else if(
             pais == "portugal"){
-                return "europa"
+                console.log("europa")
         }else if(
             pais == "italia" ){
-                return "europa"
+                console.log("europa")
         }else if (
             pais == "usa"){
-        return "america del norte"
+                console.log("america del norte")
         }  else if(
             pais =="mexico"){
-                return "america del norte"
+                console.log("america del norte")
         } else if(
             pais =="canada"){
-                return "america del norte"
+                console.log("america del norte")
         }else if(
             pais == "colombia" ){
-                return "america del sur"
+                console.log("america del sur")
         }else if(
             pais == "brasil"){
-                return "america del sur"
+                console.log("america del sur")
         }else if(
             pais == "venezuela" ){
-                return "america del sur"
+                console.log("america del sur")
         }else if(
             pais == "marruecos"){
-                return "africa"
+                console.log("africa")
         } else if(
             pais == "tunez"){
-                return "africa"
+                console.log("africa")
         }else if(
             pais == "camerun"){
-            return "africa"
+                console.log("africa")
         } else if(
             pais == "japon"){
-                return "asia"
+                console.log("asia")
         }else if(
             pais =="china"){
-                return "asia"
+                console.log("asia")
         }else if(
             pais == "vietnam"){
-                return "asia"
+                console.log("asia")
         }else if(
             pais == "india"){
-            return "asia"
+                console.log("asia")
         }else if(
             pais == "australia"){
-                return "oceania"
+                console.log("oceania")
         } else if(
             pais == "nueva celanda"){
-            return "oceania"
+                console.log("oceania")
         } else{
-            return "antardida"
+            console.log("antardida")
         }    
 }
 
