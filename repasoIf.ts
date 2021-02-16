@@ -38,64 +38,45 @@ console.log(zodiac(21, "diciembre", 2000))
 
 function continente(pais)
 {
-    if(pais == "españa"){
+    if (pais == "españa"){
         console.log("europa")
-        }else if(
-            pais == "francia"){
-                console.log("europa")
-        }else if(
-            pais == "portugal"){
-                console.log("europa")
-        }else if(
-            pais == "italia" ){
-                console.log("europa")
-        }else if (
-            pais == "usa"){
-                console.log("america del norte")
-        }  else if(
-            pais =="mexico"){
-                console.log("america del norte")
-        } else if(
-            pais =="canada"){
-                console.log("america del norte")
-        }else if(
-            pais == "colombia" ){
-                console.log("america del sur")
-        }else if(
-            pais == "brasil"){
-                console.log("america del sur")
-        }else if(
-            pais == "venezuela" ){
-                console.log("america del sur")
-        }else if(
-            pais == "marruecos"){
-                console.log("africa")
-        } else if(
-            pais == "tunez"){
-                console.log("africa")
-        }else if(
-            pais == "camerun"){
-                console.log("africa")
-        } else if(
-            pais == "japon"){
-                console.log("asia")
-        }else if(
-            pais =="china"){
-                console.log("asia")
-        }else if(
-            pais == "vietnam"){
-                console.log("asia")
-        }else if(
-            pais == "india"){
-                console.log("asia")
-        }else if(
-            pais == "australia"){
-                console.log("oceania")
-        } else if(
-            pais == "nueva celanda"){
-                console.log("oceania")
-        } else{
-            console.log("antardida")
+    }else if (pais == "francia"){
+        console.log("europa")
+    }else if (pais == "portugal"){
+        console.log("europa")
+    }else if(pais == "italia" ){
+        console.log("europa")
+    }else if (pais == "usa"){
+        console.log("america del norte")
+    }else if(pais =="mexico"){
+        console.log("america del norte")
+    }else if(pais =="canada"){
+        console.log("america del norte")
+    }else if(pais == "colombia" ){
+        console.log("america del sur")
+    }else if(pais == "brasil"){
+        console.log("america del sur")
+    }else if(pais == "venezuela" ){
+        console.log("america del sur")
+    }else if(pais == "marruecos"){
+        console.log("africa")
+    } else if(pais == "tunez"){
+        console.log("africa")
+    }else if(pais == "camerun"){
+        console.log("africa")
+    } else if(pais == "japon"){
+        console.log("asia")
+    }else if(pais =="china"){
+        console.log("asia")
+    }else if(pais == "vietnam"){
+        console.log("asia")
+    }else if(pais == "india"){
+        console.log("asia")
+    }else if(pais == "australia"){
+        console.log("oceania")
+    }else if(pais == "nueva celanda"){
+        console.log("oceania")
+    }else{console.log("antardida")
         }    
 }
 
